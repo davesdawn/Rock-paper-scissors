@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    background-color: rgb(83, 201, 142);
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(94, 81, 81);
+    margin: auto;
+    height: 300px;
+    width: 600px;
+}
+
+button {
+    font-size: 25px;
+    font-family: fantasy;
+    margin: 10px;
+}
+
