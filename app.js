@@ -21,7 +21,7 @@ userOptions.forEach(userOption => userOption.addEventListener('click', function(
 )
 
 function getComputerChoice() {
-    let randomNum = Math.floor(Math.random() * 3);
+    const randomNum = Math.floor(Math.random() * 3);
     //console.log(randomNum);
     if(randomNum === 0) {
         computerChoice = 'rock';
